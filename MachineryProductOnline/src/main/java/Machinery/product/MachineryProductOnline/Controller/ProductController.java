@@ -28,4 +28,10 @@ public class ProductController {
         service.addProduct(prod);
 
     }
+    @PutMapping("/Products")
+    public void UpdateProduct(@RequestBody Products prod)
+    {
+        service.UpdateProduct(prod);
+
+    }
 }
