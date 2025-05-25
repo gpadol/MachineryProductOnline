@@ -1,2 +1,2 @@
-/mvnw text eol=lf
-*.cmd text eol=crlf
+ssh-keygen -t rsa -b 4096 -c "grvpadol@gmail.com"
+
