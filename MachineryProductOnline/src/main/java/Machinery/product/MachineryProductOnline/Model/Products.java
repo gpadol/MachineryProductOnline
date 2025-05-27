@@ -1,15 +1,17 @@
 package Machinery.product.MachineryProductOnline.Model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import org.springframework.stereotype.Component;
 
 @Component
-
+@Entity
 
 public class Products {
 
     public Products() {
     }
-
+    @Id
     private int prodID;
     private String prodName;
     private String prodDes;
